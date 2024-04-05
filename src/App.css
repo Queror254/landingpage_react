@@ -1,0 +1,33 @@
+
+.placeholder-color::placeholder {
+    color: #fff !important;
+}
+
+@media (max-width:749px) {
+    .mobile_view {
+        flex-direction: column !important;
+    }
+
+    .Form_container{
+        align-items: center;
+    }
+
+    .c_form{
+        margin-top: 10px !important;
+        width: 340px !important;
+    }
+}
+
+.submit_btn:hover{
+    background-color: rgba(0, 0, 100, 0.6)!important;
+}
+
+
+/***Nav Brand ***/
+.Nav_brand{ 
+    font-family: 'Bodoni MT Black';
+    display: inline-block;
+    position: relative;
+    height: 52px;
+    font-size: 30px!important;
+}
